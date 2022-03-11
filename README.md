@@ -1,4 +1,6 @@
-<img src="./public/media/weather-app.png" width="80%" height="650px" align="center" style="object-fit:cover; text-align: center;margin: 0 auto;display:block;border-radius: 5px;box-shadow: 0 2px 4px rgb(0,0,0,0.5);">
+<div align="center">
+<img src="./public/media/weather-app.png" width="600px" height="600px" >
+</div> 
 
 <h1 align="center">React Weather App</h1>
 <p align="center" style="margin:0">This repository contain a <strong>React</strong> project using the <strong>Open Weather Map</strong> API.</p>
