@@ -74,4 +74,4 @@ const InfoContainer = styled(Stack)(({ theme }) => ({
 	}
 }));
 
-export { WeatherCardContainer, WeatherCardContent, WeatherIcon, InfoContainer };
+export { InfoContainer, WeatherCardContainer, WeatherCardContent, WeatherIcon };

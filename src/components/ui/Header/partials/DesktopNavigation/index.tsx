@@ -1,4 +1,5 @@
 import { Box } from '@mui/material';
+
 import NavigationItem from '../NavigationItem';
 
 type Props = {};
@@ -6,6 +7,7 @@ type Props = {};
 const DesktopNavigation = ({ ...props }: Props) => {
 	return (
 		<Box
+			{...props}
 			sx={{
 				display: 'flex',
 				alignItems: 'center',

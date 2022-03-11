@@ -1,5 +1,5 @@
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import { Box, Menu, MenuItem, SxProps, Typography } from '@mui/material';
+import { Box, Menu, MenuItem, Typography } from '@mui/material';
 import RemoveCityDrawer from 'components/drawers/RemoveCityDrawer';
 import LightTooltip from 'components/tooltips/LightTooltip';
 import { MouseEvent, useState } from 'react';
@@ -9,6 +9,7 @@ import { getWeatherIcon } from 'shared/services/weather/weatherService';
 import capitalizeString from 'shared/utils/capitalizeString';
 import { getByTimestamp, getTimestampWeekDay } from 'shared/utils/timestampUtils';
 import { getInfoFromCurrent } from 'shared/utils/transformWeather';
+
 import WeatherInfoModal from '../InfoModal';
 import {
 	InfoContainer,
@@ -19,12 +20,11 @@ import {
 } from './styles';
 
 type Props = {
-	sx?: SxProps;
 	city: SavedCityType;
 	weather: CurrentWeatherType;
 };
 
-const CityWeatherCard = ({ city, weather, sx, ...props }: Props) => {
+const CityWeatherCard = ({ city, weather, ...props }: Props) => {
 	// Menu state
 	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 

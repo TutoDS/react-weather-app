@@ -1,5 +1,5 @@
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import { Box, Menu, MenuItem, SxProps, Typography } from '@mui/material';
+import { Box, Menu, MenuItem, Typography } from '@mui/material';
 import CustomSnackbar from 'components/CustomSnackbar';
 import RemoveCityDrawer from 'components/drawers/RemoveCityDrawer';
 import LightTooltip from 'components/tooltips/LightTooltip';
@@ -11,6 +11,7 @@ import useSnackbar from 'shared/hooks/useSnackbar';
 import { getOneCallCityWeather, getWeatherIcon } from 'shared/services/weather/weatherService';
 import capitalizeString from 'shared/utils/capitalizeString';
 import { getByTimestamp, getTimestampWeekDay } from 'shared/utils/timestampUtils';
+
 import {
 	InfoContainer,
 	MenuIconBtn,
@@ -20,11 +21,10 @@ import {
 } from './styles';
 
 type Props = {
-	sx?: SxProps;
 	city: SavedCityType;
 };
 
-const WeatherCard = ({ city, sx, ...props }: Props) => {
+const WeatherCard = ({ city, ...props }: Props) => {
 	// Snackbar hook
 	const { snackbar, openSnackbar, closeSnackbar } = useSnackbar();
 

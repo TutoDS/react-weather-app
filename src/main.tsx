@@ -1,5 +1,6 @@
-import { CssBaseline, ThemeProvider } from '@mui/material';
 import 'assets/styles/global.scss';
+
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import defaultTheme from 'assets/styles/theme/defaultTheme';
 import Main from 'pages/Main';
 import React from 'react';

@@ -1,3 +1,6 @@
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 import { Grid, Stack, Typography } from '@mui/material';
 import CustomSnackbar from 'components/CustomSnackbar';
 import Loading from 'components/ui/Loading';
@@ -9,9 +12,8 @@ import { OneCityCallResponseType } from 'shared/@types/WeatherResponses';
 import useSnackbar from 'shared/hooks/useSnackbar';
 import { getCityCoordinates, getOneCallCityWeather } from 'shared/services/weather/weatherService';
 import { Navigation } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import CityWeatherCard from './partials/MainCard';
 
 const CityWeather = () => {

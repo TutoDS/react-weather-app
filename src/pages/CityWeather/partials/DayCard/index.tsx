@@ -5,6 +5,7 @@ import { DailyWeatherType } from 'shared/@types/WeatherResponses';
 import { getWeatherIcon } from 'shared/services/weather/weatherService';
 import { getByTimestamp, getTimestampWeekDay } from 'shared/utils/timestampUtils';
 import { getInfoFromDaily } from 'shared/utils/transformWeather';
+
 import WeatherInfoModal from '../InfoModal';
 import { InfoContainer, WeatherCardContainer, WeatherCardContent, WeatherIcon } from './styles';
 
@@ -20,7 +21,7 @@ const DailyCard = ({ weather, sx, ...props }: Props) => {
 
 	return (
 		<>
-			<WeatherCardContainer onClick={handleModalState} sx={{ ...sx }}>
+			<WeatherCardContainer onClick={handleModalState} sx={{ ...sx }} {...props}>
 				<WeatherCardContent>
 					<Typography variant={'subtitle2'} fontWeight={'bold'}>
 						{getTimestampWeekDay(weather?.dt)}

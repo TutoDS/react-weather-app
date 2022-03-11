@@ -1,4 +1,5 @@
 import { CitiesResponseType, CountriesResponseType } from 'shared/@types/CountriesResponse';
+
 import countryApi from './countryApi';
 
 const getCountryCities = async (country: string): Promise<CitiesResponseType> => {
@@ -22,4 +23,4 @@ const getCountries = async (): Promise<CountriesResponseType> => {
 	}
 };
 
-export { getCountryCities, getCountries };
+export { getCountries, getCountryCities };

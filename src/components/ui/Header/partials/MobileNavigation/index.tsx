@@ -2,6 +2,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import { IconButton, Stack, SwipeableDrawer } from '@mui/material';
 import { useState } from 'react';
+
 import NavigationItem from '../NavigationItem';
 
 type Props = {};
@@ -18,7 +19,7 @@ const MobileNavigation = ({ ...props }: Props) => {
 
 	return (
 		<>
-			<IconButton onClick={handleToggle} sx={{ color: 'common.white' }}>
+			<IconButton {...props} onClick={handleToggle} sx={{ color: 'common.white' }}>
 				{isOpen ? <CloseIcon /> : <MenuIcon />}
 			</IconButton>
 

@@ -141,8 +141,8 @@ type OneCityCallResponseType = {
 
 export {
 	CityResponseType,
-	WeatherResponseType,
 	CurrentWeatherType,
 	DailyWeatherType,
-	OneCityCallResponseType
+	OneCityCallResponseType,
+	WeatherResponseType
 };

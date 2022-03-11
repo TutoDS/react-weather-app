@@ -24,4 +24,4 @@ type CitiesResponseType = {
 	data: string[];
 };
 
-export { CountriesResponseType, CitiesResponseType, CountryType };
+export { CitiesResponseType, CountriesResponseType, CountryType };

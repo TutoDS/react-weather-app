@@ -68,4 +68,4 @@ const MenuIconBtn = styled(IconButton)(({ theme }) => ({
 	color: theme.palette.common.white
 }));
 
-export { WeatherCardContainer, WeatherCardContent, WeatherIcon, InfoContainer, MenuIconBtn };
+export { InfoContainer, MenuIconBtn, WeatherCardContainer, WeatherCardContent, WeatherIcon };

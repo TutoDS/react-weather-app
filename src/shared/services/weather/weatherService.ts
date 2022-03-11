@@ -3,6 +3,7 @@ import {
 	OneCityCallResponseType,
 	WeatherResponseType
 } from 'shared/@types/WeatherResponses';
+
 import weatherApi from './weatherApi';
 
 const getCityWeather = async (lat: number, long: number): Promise<WeatherResponseType> => {
@@ -58,4 +59,4 @@ const getCityCoordinates = async (city: string, country: string): Promise<CityRe
 
 const getWeatherIcon = (icon: string) => `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
-export { getCityWeather, getOneCallCityWeather, getCityCoordinates, getWeatherIcon };
+export { getCityCoordinates, getCityWeather, getOneCallCityWeather, getWeatherIcon };

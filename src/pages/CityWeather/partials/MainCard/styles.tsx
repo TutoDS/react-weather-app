@@ -1,4 +1,4 @@
-import { Card, CardContent, IconButton, Stack, Typography } from '@mui/material';
+import { Card, CardContent, IconButton, Stack } from '@mui/material';
 import { alpha, styled } from '@mui/material/styles';
 import cardBgImage from 'assets/media/backgrounds/mountain.jpg';
 
@@ -65,4 +65,4 @@ const MenuIconBtn = styled(IconButton)(({ theme }) => ({
 	color: theme.palette.common.white
 }));
 
-export { WeatherCardContainer, WeatherCardContent, WeatherIcon, InfoContainer, MenuIconBtn };
+export { InfoContainer, MenuIconBtn, WeatherCardContainer, WeatherCardContent, WeatherIcon };

@@ -20,4 +20,4 @@ type SavedCityType = {
 	};
 };
 
-export { WeatherContextProps, WeatherContextProviderProps, SavedCityType };
+export { SavedCityType, WeatherContextProps, WeatherContextProviderProps };

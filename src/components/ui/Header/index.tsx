@@ -1,5 +1,6 @@
 import { AppBar, Container, Hidden, Link, Toolbar, Typography } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
+
 import DesktopNavigation from './partials/DesktopNavigation';
 import ElevationScroll from './partials/ElevationScroll';
 import MobileNavigation from './partials/MobileNavigation';

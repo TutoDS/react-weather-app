@@ -6,6 +6,7 @@ import DarkTooltip from 'components/tooltips/DarkTooltip';
 import { SavedCityType } from 'shared/@types/WeatherContext';
 import useSnackbar from 'shared/hooks/useSnackbar';
 import useWeather from 'shared/hooks/useWeather';
+
 import { RemoveIconButton } from './styles';
 
 type Props = {
