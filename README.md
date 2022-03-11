@@ -99,7 +99,7 @@ If you have interest on details about the original challenge you can see the [`a
 -   [x] Add **Docker** configuration files
 -   [ ] Use **Redux**
 -   [ ] Create tests
--   [ ] Add **ESLint**
+-   [x] ~Add **ESLint**~
 
 <br /><br />
 
