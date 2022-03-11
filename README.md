@@ -1,6 +1,6 @@
 <div align="center">
 <img src="./public/media/weather-app.png" width="600px" height="600px" >
-</div> 
+</div>
 
 <h1 align="center">React Weather App</h1>
 <p align="center" style="margin:0">This repository contain a <strong>React</strong> project using the <strong>Open Weather Map</strong> API.</p>
@@ -76,11 +76,22 @@ If you have interest on details about the original challenge you can see the [`a
 
 <h2 style="font-weight: 3000">📸 Final Result</h2>
 
+<div align="center">
+<h3 style="font-weight: 300">Homepage</h3>
 <img src="./public/media/home.png" alt="home" width="50%" />
+
+<h3 style="font-weight: 300">Add a new City</h3>
 <img src="./public/media/add-city.png" alt="add city" width="50%" />
+
+<h3 style="font-weight: 300">Remove one City</h3>
 <img src="./public/media/remove-city.png" alt="remove city" width="50%" />
+
+<h3 style="font-weight: 300">View City Weather for the next 7 days</h3>
 <img src="./public/media/city-weather.png" alt="city" width="50%" />
+
+<h3 style="font-weight: 300">View more details about specific day</h3>
 <img src="./public/media/day-details.png" alt="day details" width="50%" />
+</div>
 
 <h2 style="font-weight: 300">🧾 To Do / Improvements</h2>
 
@@ -88,6 +99,7 @@ If you have interest on details about the original challenge you can see the [`a
 -   [x] Add **Docker** configuration files
 -   [ ] Use **Redux**
 -   [ ] Create tests
+-   [ ] Add **ESLint**
 
 <br /><br />
 
